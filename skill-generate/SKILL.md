@@ -1298,8 +1298,8 @@ bun run skill:check 2>&1 | grep -A 2 "<slug>"
 ✅ スキル生成完了
 
 スキル名: /{slug}
-ファイル: <gstack_dir>/{slug}/SKILL.md.tmpl
-       : <gstack_dir>/{slug}/SKILL.md (生成済み)
+ファイル: <gstack_dir>/<slug>/SKILL.md.tmpl
+       : <gstack_dir>/<slug>/SKILL.md (生成済み)
 
 使い方:
   /skill-generate で呼び出すか、Claude Code に「/{slug}」と入力する
