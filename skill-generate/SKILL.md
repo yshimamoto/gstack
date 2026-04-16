@@ -641,7 +641,7 @@ echo "OK — no collision"
 ls -d ~/.claude/skills/gstack 2>/dev/null || ls -d .claude/skills/gstack 2>/dev/null || echo "NOT_FOUND"
 ```
 
-`NOT_FOUND` の場合はユーザーに確認する。見つかった場合はそのディレクトリを `<gstack_dir>` とし、 `<gstack_dir>/{slug}/SKILL.md.tmpl` に生成する。
+`NOT_FOUND` の場合はユーザーに確認する。見つかった場合はそのディレクトリを <gstack_dir> とし、 <gstack_dir>/<slug>/SKILL.md.tmpl に生成する。
 
 **生成するファイルの構造:**
 
